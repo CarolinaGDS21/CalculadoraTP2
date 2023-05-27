@@ -1,0 +1,36 @@
+body {
+   font-family: 'Rokkitt', serif;
+   background-color: rgb(225, 192, 226);
+    
+}
+
+.calculadora {
+    display: grid;
+    grid-template-columns:100px 100px 100px ;
+    grid-template-rows: 100px 100px 100px;
+    gap: 5px;
+    width: 80px;
+    
+}
+
+.calculadora .item{
+    font-size: 30px;
+    background-color: rgb(192, 51, 87);
+    color: rgb(244, 240, 248);
+    text-align: center;
+
+}
+
+.calculadora .item:hover{
+    background-color: blue;
+    cursor:pointer;
+}
+
+.calculadora .resultado{
+    grid-column: 1/8;
+
+}
+
+.calculadora .type{
+    background-color: blue;
+}
