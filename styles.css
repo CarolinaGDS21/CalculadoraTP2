@@ -1,0 +1,79 @@
+body {
+    
+    font-family: 'Rokkitt', serif; 
+    background-color: #7bf0f0;
+    display: grid;
+    font-size: 30px;
+    text-align: center;
+     
+ }
+
+
+ .pantalla {
+    width:410px;
+    height: 90px;
+    background-color: #f6fafa;
+    gap: 5px;
+    font-size: 40px;
+ }
+
+
+.grid{
+    display: grid;
+    grid-template-columns:100px 100px 100px 100px ;
+    grid-template-rows: 100px 100px 100px 100px;
+    gap: 5px;
+    width: 80px;
+}
+
+.numero{
+    width: 50px;
+
+
+}
+
+.operador{
+    width: px;
+
+}
+
+
+
+.igual  {
+    width:370px;  
+
+}
+
+.borrar  {
+    width:px;  
+
+}
+
+.punto  {
+    width:px;  
+
+}
+
+
+
+
+
+
+
+    
+.grid div:hover{
+    background-color: rgb(17, 180, 209);
+    cursor:pointer;
+}
+
+
+.grid div{
+
+    background-color: rgb(115, 84, 167);
+    padding: 25px;
+}
+
+.grid div:hover{
+    border: 2px solid #e02121;
+
+}
